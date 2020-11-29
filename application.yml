@@ -16,4 +16,4 @@ microservice:
   shipping-service:
     endpoints:
       endpoint:
-        uri: http://Shipping-service/shipping/shipOrder
+        uri: http://SHIPPING-SERVICE/shipping/shipOrder
