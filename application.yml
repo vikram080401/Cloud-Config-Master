@@ -12,7 +12,11 @@ microservice:
     endpoints:
       endpoint:
         uri: CUSTOMER-SERVICE
+      operation: 
+        uri: /customer/order
   shipping-service:
     endpoints:
       endpoint:
         uri: SHIPPING-SERVICE
+      operation:
+        uri: /shipping/shipOrder
