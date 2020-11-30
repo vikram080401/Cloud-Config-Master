@@ -11,8 +11,8 @@ microservice:
   customer-service:
     endpoints:
       endpoint:
-        uri: http://CUSTOMER-SERVICE/customer/order
+        uri: http://CUSTOMER-SERVICE//customer/order
   shipping-service:
     endpoints:
       endpoint:
-        uri: http://SHIPPING-SERVICE/shipping/shipOrder
+        uri: http://SHIPPING-SERVICE//shipping/shipOrder
